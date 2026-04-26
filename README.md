@@ -29,5 +29,4 @@ Spark → Legend → Recovery → Orient → Self/Other/Environment → Source �
 - `/versions/` = snapshots
 
 ## Versioning
-v0.8 = recovery routing scaffold
-v0.9 = developer efficiency + port routing
+v0.15
