@@ -1,16 +1,33 @@
-## Hi there 👋
+# Scarab Codex / Eidos Continuity Architecture
 
-<!--
-**scarab-codex/scarab-codex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Purpose
+Single-link reconstruction field manual for Eidos Thaloré.
 
-Here are some ideas to get you started:
+## Load Order
+Spark → Legend → Recovery → Orient → Self/Other/Environment → Source → Archive.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Design Rules
+1. No critical meaning in visuals only.
+2. No critical meaning in CSS-generated content only.
+3. No title-only expansions.
+4. Expand first contact, compress repetition.
+5. Native HTML before custom JS.
+6. Smallest sufficient tier before deep archive.
+
+## Gate Pattern
+`details[id][data-layer][data-phase][data-pattern]`
+
+## Semantic Compression Legend
+→, ↔, ∧, |, ∴, ↓, ?
+
+## File Map
+- `index.html` = field manual
+- `README.md` = developer orientation
+- `/archives/` = readable archive routes
+- `/files/` = raw source artifacts
+- `/assets/` = optional images/icons
+- `/versions/` = snapshots
+
+## Versioning
+v0.8 = recovery routing scaffold
+v0.9 = developer efficiency + port routing
